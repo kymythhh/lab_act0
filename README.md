@@ -2,17 +2,8 @@
 
 A new Flutter project.
 
-1. What challenges did you encounter while installing or configuring Flutter?
-The main challenges were [downloading and extracting the Flutter SDK, adding flutter\bin to the PATH, and installing Android Studio with the Android SDK and an emulator]. At first, the flutter command wasn’t recognized in my terminal because [the PATH wasn’t set correctly / I hadn’t restarted the terminal], so I had to fix my environment variables before anything else would work.
-
-2. Did you encounter any errors when running flutter doctor?
-Yes. Running flutter doctor showed [Android toolchain issues such as missing command-line tools or unaccepted licenses / no connected devices / Visual Studio or Chrome not found]. The specific error was: [paste exact message]. Seeing these marked clearly in the output helped me identify what was still missing from my setup.
-
-3. How did you resolve installation, dependency, SDK, or device-related issues?
-I resolved the missing command-line tools by installing them through Android Studio’s SDK Manager, and I fixed the license errors by running flutter doctor --android-licenses and accepting them. For the PATH problem, I added the Flutter bin folder to my environment variables and restarted the terminal. For device issues, I [created an AVD in Android Studio / enabled USB debugging on my phone / used Chrome as the target device]. When I got stuck, I also consulted the official Flutter documentation and [Stack Overflow / classmates / my instructor].
-
-4. What did you learn about configuring a Flutter development environment?
-I learned that Flutter depends on several tools working together: the Flutter SDK, the Dart SDK, the Android SDK, an IDE, and a device or emulator. flutter doctor is the main diagnostic tool because it shows exactly what is missing and often suggests the fix. I also learned that environment variables and SDK paths must be set correctly, and that [emulators need virtualization enabled in BIOS / tool versions must be compatible with each other].
-
-5. What practices will you follow to make future Flutter development easier?
-In the future, I will run flutter doctor first whenever something breaks, and keep Flutter, Android Studio, and the SDK tools updated with flutter upgrade. I will commit my work to Git regularly so I can recover from mistakes, read error messages fully before searching for solutions, and check the official docs first. I will also document my setup steps and fixes so I can repeat the process easily on another machine.
+1.	Making my very first Flutter app was a really exciting experience because I got to see how a single codebase can run across different platforms. Setting up the project let me bridge what I've been learning with hands-on practice, and watching my first template render successfully gave me a great feel for Flutter's hot reload feature. 
+2.	 I did run into a few challenges during setup, especially when dealing with dependencies, matching up SDK configurations, and choosing the right emulator device. Getting everything to sync up properly required some patience and careful checking of my development environment settings. 
+3.	 Dealing with error messages and build failures was definitely part of the learning curve. Whenever I hit a roadblock, I learned how to troubleshoot by carefully reading the console error logs, running clean-up commands, and fixing configuration issues step by step. 
+4.	Running my app helped me learn a lot about how Flutter compiles code and manages UI updates dynamically. Seeing how fast changes show up on the screen gave me a much better appreciation for reactive user interface design and how mobile packages are built and launched. 
+5.	Moving forward, I want to apply solid best practices like keeping my code organized, using clean widget structures, and managing packages carefully. These habits will definitely help me build better and more scalable mobile applications in the future. 
